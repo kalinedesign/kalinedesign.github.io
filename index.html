@@ -1,11 +1,264 @@
-<html>
-  <head>
-    <title>Kaline</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-  </head>
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>KalineDesign</title>
+	<meta name="description" content="Multicolored batik wall hanging decoration for home" />
+	<meta name="keywords" content="batik, flower of life, handycraft, decoration" />
+	<meta name="author" content="Kalinedesign" />
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!-- General demo styles & header -->
+	<link rel="stylesheet" type="text/css" href="css/demo.css" />
+	 <!-- Flickity gallery styles -->
+	<link rel="stylesheet" type="text/css" href="css/flickity.css" />
+	<!-- Component styles -->
+	<link rel="stylesheet" type="text/css" href="css/component.css" />
+	<script src="js/modernizr.custom.js"></script>
+	
+</head>
+<body>
+	<!-- Bottom bar with filter and cart info -->
+	<div class="bar">
+		<div class="filter">
+			<span class="filter__label">Filter: </span>
+			<button class="action filter__item filter__item--selected" data-filter="*">All</button>
+			<button class="action filter__item" data-filter=".flower"><i class="icon icon--jacket"></i><span class="action__text">Flower</span></button>
+			<button class="action filter__item" data-filter=".sriyantra"><i class="icon icon--shirt"></i><span class="action__text">Sri Yantra</span></button>
+			<button class="action filter__item" data-filter=".serenity"><i class="icon icon--dress"></i><span class="action__text">Serenity</span></button>
+			<button class="action filter__item" data-filter=".cosmos"><i class="icon icon--trousers"></i><span class="action__text">Cosmos</span></button>
+			<button class="action filter__item" data-filter=".other"><i class="icon icon--shoe"></i><span class="action__text">Other</span></button>
+		</div>
+		<button data-dialog="somedialog" class="cart">
+			<i class="cart__icon fa fa-user"></i>
+			<span class="">About</span>
+			
+		</button>
+	</div>
+	
+	<!-- Main view -->
+	<div class="view">
+  	
+		<!--header -->
+		<header class="bp-header cf">
+			<h1><img src="images/logo2.png" alt="logo2" width="220" height="111"><span>Multicolored batik for you home</span></h1>
+			
+			<nav>
+				<a target="https://www.facebook.com/guklengoff?fref=ts" href="https://www.facebook.com/guklengoff?fref=ts" class="bp-icon bp-icon-prev" data-info="Facebook"><i class="fa fa-facebook"></i><span>Facebook</span></a>
+				<!--a href="" class="bp-icon bp-icon-next" data-info="next Blueprint"><span>Next Blueprint</span></a-->
+				<a target="https://www.instagram.com/kaline__design/" href="https://www.instagram.com/kaline__design/" class="bp-icon bp-icon-drop" data-info="Instagram"><i class="fa fa-instagram"></i><span>Instagram</span></a>
+				<a target="https://www.etsy.com/shop/KalineDesign" href="https://www.etsy.com/shop/KalineDesign" class="bp-icon bp-icon-archive" data-info="Etsy"><i class="fa fa-etsy"></i><span>Etsy</span></a>
+				<a  href="mailto:ka4a44@gmail.com" class="bp-icon bp-icon-archive" data-info="write a letter"><i class="fa fa-envelope-o"></i><span>write a letter</span></a>
+			</nav>
+			
+		</header>
+		
+		<!-- Grid -->
+		<section class="grid grid--loading">
+			<!-- Loader -->
+			<img class="grid__loader" src="images/grid.svg" width="60" alt="Loader image" />
+			<!-- Grid sizer for a fluid Isotope (Masonry) layout -->
+			<div class="grid__sizer"></div>
+			<!-- Grid items -->
+			<div class="grid__item flower">
+				<div class="slider">
+					<div class="slider__item"><img src="images/green1.jpg" alt="Dummy" /></div>
+					<div class="slider__item"><img src="images/green2.jpg" alt="Dummy" /></div>
+					<div class="slider__item"><img src="images/green3.jpg" alt="Dummy" /></div>
+				</div>
+				<div class="meta">
+					<h3 class="meta__title">Flower of life</h3>
+					<span class="meta__brand">Turmaline batik</span>
+					<span class="meta__price">$122</span>
+				</div>
+				<a target="https://www.etsy.com/listing/462945185/flower-of-life-batik-wall-decor-batik?ref=shop_home_feat_2" href="https://www.etsy.com/listing/462945185/flower-of-life-batik-wall-decor-batik?ref=shop_home_feat_2" class="action action--button action--buy"><i class="fa fa-shopping-cart"></i><span class="">Buy on Etsy</span></a>
+			</div>
+			<div class="grid__item serenity">
+				<div class="slider">
+					<div class="slider__item"><img src="images/woman1.jpg" alt="Dummy" /></div>
+					<div class="slider__item"><img src="images/woman2.jpg" alt="Dummy" /></div>
+					<div class="slider__item"><img src="images/woman3.jpg" alt="Dummy" /></div>
+				</div>
+				<div class="meta">
+					<h3 class="meta__title">Inner Serenity</h3>
+					<span class="meta__brand">Serenity of meditation</span>
+					<span class="meta__price">$83</span>
+				</div>
+				<a target="https://www.etsy.com/listing/467913011/wall-batik-tapestry-inner-serenity-wall?ref=shop_home_active_11" href="https://www.etsy.com/listing/467913011/wall-batik-tapestry-inner-serenity-wall?ref=shop_home_active_11" class="action action--button action--buy"><i class="fa fa-shopping-cart"></i><span class="">Buy on Etsy</span></a>
+			</div>		
+			<div class="grid__item flower">
+				<div class="slider">
+  				<div class="slider__item"><img src="images/smblue.jpg" alt="Dummy" /></div>
+				</div>
+				<div class="meta">
+					<h3 class="meta__title">Sacred Crystals</h3>
+					<span class="meta__brand">Sacred Geometry</span>
+					<span class="meta__price">$42</span>
+				</div>
+				<a target="https://www.etsy.com/listing/464122219/sacred-crystal-blue-batik-wall-decor?ref=shop_home_feat_4" href="https://www.etsy.com/listing/464122219/sacred-crystal-blue-batik-wall-decor?ref=shop_home_feat_4" class="action action--button action--buy"><i class="fa fa-shopping-cart"></i><span class="">Buy on Etsy</span></a>
+			</div>
+			<div class="grid__item grid__item--size-a other">
+				<div class="slider">
+					<div class="slider__item"><img src="images/wild3.jpg" alt="Dummy" /></div>
+					<div class="slider__item"><img src="images/wild1.jpg" alt="Dummy" /></div>
+					<div class="slider__item"><img src="images/wild2.jpg" alt="Dummy" /></div>
+				</div>
+				<div class="meta">
+					<h3 class="meta__title">Wild flowers batik</h3>
+					<span class="meta__brand">"Wild flowers" batik wall decor</span>
+					<span class="meta__price">$140</span>
+				</div>
+				<a href="https://www.etsy.com/listing/387069072/wild-flowers-batik-wall-decor-wall?ref=shop_home_feat_1" target="https://www.etsy.com/listing/387069072/wild-flowers-batik-wall-decor-wall?ref=shop_home_feat_1" class="action action--button action--buy"><i class="fa fa-shopping-cart"></i><span class="">Buy on Etsy</span></a>
+			</div>
+			<div class="grid__item flower">
+				<div class="slider">
+					<div class="slider__item"><img src="images/goldgreen2.jpg" alt="Dummy" /></div>
+					<div class="slider__item"><img src="images/goldgreen1.jpg" alt="Dummy" /></div>
+					<div class="slider__item"><img src="images/goldgreen3.jpg" alt="Dummy" /></div>
+				</div>
+				<div class="meta">
+					<h3 class="meta__title">Flower of life</h3>
+					<span class="meta__brand">Palette of Birch Forest</span>
+					<span class="meta__price">$73</span>
+				</div>
+				<a href="https://www.etsy.com/listing/484039491/flower-of-life-green-golden-batik-wall?ref=shop_home_active_1" target="https://www.etsy.com/listing/484039491/flower-of-life-green-golden-batik-wall?ref=shop_home_active_1" class="action action--button action--buy"><i class="fa fa-shopping-cart"></i><span class="">Buy on Etsy</span></a>
+			</div>
+			<div class="grid__item grid__item--size-a flower">
+				<div class="slider">
+					<div class="slider__item"><img src="images/bluegold1.jpg" alt="Dummy" /></div>
+					<div class="slider__item"><img src="images/bluegold2.jpg" alt="Dummy" /></div>
+					<div class="slider__item"><img src="images/bluegold3.jpg" alt="Dummy" /></div>
+					
+				</div>
+				<div class="meta">
+					<h3 class="meta__title">Flower of life</h3>
+					<span class="meta__brand">Edelweiss flower</span>
+					<span class="meta__price">$73</span>
+				</div>
+				<a href="https://www.etsy.com/listing/274979004/flower-of-life-batik-wall-decor-mandala?ref=shop_home_active_13" target="https://www.etsy.com/listing/274979004/flower-of-life-batik-wall-decor-mandala?ref=shop_home_active_13" class="action action--button action--buy"><i class="fa fa-shopping-cart"></i><span class="">Buy on Etsy</span></a>
+			</div>
+			<div class="grid__item sriyantra">
+				<div class="slider">
+					<div class="slider__item"><img src="images/pink1.jpg" alt="Dummy" /></div>
+					<div class="slider__item"><img src="images/pink2.jpg" alt="Dummy" /></div>
+					<div class="slider__item"><img src="images/pink3.jpg" alt="Dummy" /></div>
+				</div>
+				<div class="meta">
+					<h3 class="meta__title"> Sri Yantra</h3>
+					<span class="meta__brand">Beige Purple Olive</span>
+					<span class="meta__price">$74</span>
+				</div>
+				<a href="https://www.etsy.com/listing/475040671/slassic-beige-purple-mandala-sri-yanta?ref=shop_home_active_10" target="https://www.etsy.com/listing/475040671/slassic-beige-purple-mandala-sri-yanta?ref=shop_home_active_10" class="action action--button action--buy"><i class="fa fa-shopping-cart"></i><span class="">Buy on Etsy</span></a>
+			</div>
+		  <div class="grid__item dresses">
+		  		<div class="slider">
+		  			<div class="slider__item"><img src="images/lotus1.jpg" alt="Dummy" /></div>
+		  			<div class="slider__item"><img src="images/lotus2.jpg" alt="Dummy" /></div>
+		  			<div class="slider__item"><img src="images/lotus3.jpg" alt="Dummy" /></div>
+		  		</div>
+		  		<div class="meta">
+		  			<h3 class="meta__title">Lotus</h3>
+		  			<span class="meta__brand">Sacred Crystals</span>
+		  			<span class="meta__price">$26</span>
+		  		</div>
+		  		<a href="https://www.etsy.com/listing/455002482/sacred-crystal-blue-purple-batik-wall?ref=shop_home_active_7" target="https://www.etsy.com/listing/455002482/sacred-crystal-blue-purple-batik-wall?ref=shop_home_active_7" class="action action--button action--buy"><i class="fa fa-shopping-cart"></i><span class="">Buy on Etsy</span></a>
+		  </div>
+			<div class="grid__item cosmos">
+				<div class="slider">
+					<div class="slider__item"><img src="images/cosmosblue1.jpg" alt="Dummy" /></div>
+					<div class="slider__item"><img src="images/cosmosblue2.jpg" alt="Dummy" /></div>
+					<div class="slider__item"><img src="images/cosmosblue3.jpg" alt="Dummy" /></div>
+				</div>
+				<div class="meta">
+					<h3 class="meta__title">Stars are with us</h3>
+					<span class="meta__brand">Wax batik method</span>
+					<span class="meta__price">$36</span>
+				</div>
+				<a href="https://www.etsy.com/listing/469556255/stars-are-with-us-blue-yellow-set-of-2?ref=shop_home_active_2" target="https://www.etsy.com/listing/469556255/stars-are-with-us-blue-yellow-set-of-2?ref=shop_home_active_2" class="action action--button action--buy"><i class="fa fa-shopping-cart"></i><span class="">Buy on Etsy</span></a>
+			</div>
+			<div class="grid__item flower">
+				<div class="slider">
+					<div class="slider__item"><img src="images/blue2.jpg" alt="Dummy" /></div>
+					<div class="slider__item"><img src="images/blue1.jpg" alt="Dummy" /></div>
+					<div class="slider__item"><img src="images/blue3.jpg" alt="Dummy" /></div>
+				</div>
+				<div class="meta">
+					<h3 class="meta__title">Flower of life</h3>
+					<span class="meta__brand">Dance with the Sun</span>
+					<span class="meta__price">$73</span>
+				</div>
+				<a target="https://www.etsy.com/listing/464524151/flower-of-life-batik-wall-tapestry?ref=shop_home_active_3" href="https://www.etsy.com/listing/464524151/flower-of-life-batik-wall-tapestry?ref=shop_home_active_3" class="action action--button action--buy"><i class="fa fa-shopping-cart"></i><span class="">Buy on Etsy</span></a>
+			</div>
+			<div class="grid__item grid__item--size-a serenity">
+				<div class="slider">
+					<div class="slider__item"><img src="images/womangolden1.jpg" alt="Dummy" /></div>
+					<div class="slider__item"><img src="images/womangolden3.jpg" alt="Dummy" /></div>
+					<div class="slider__item"><img src="images/womangolden2.jpg" alt="Dummy" /></div>
+					
+				</div>
+				<div class="meta">
+					<h3 class="meta__title">Inner Serenity</h3>
+					<span class="meta__brand">golden-beige version</span>
+					<span class="meta__price">$83</span>
+				</div>
+				<a href="https://www.etsy.com/listing/457685464/wall-batik-tapestry-inner-serenity?ref=shop_home_active_12" target="https://www.etsy.com/listing/457685464/wall-batik-tapestry-inner-serenity?ref=shop_home_active_12" class="action action--button action--buy"><i class="fa fa-shopping-cart"></i><span class="">Buy on Etsy</span></a>
+			</div>
+			<div class="grid__item other">
+				<div class="slider">
+					<div class="slider__item"><img src="images/berry2.jpg" alt="Dummy" /></div>
+					<div class="slider__item"><img src="images/berry1.jpg" alt="Dummy" /></div>
+					
+				</div>
+				<div class="meta">
+					<h3 class="meta__title">Sacred Crystal </h3>
+					<span class="meta__brand">Strawberry Kaleidoscope</span>
+					<span class="meta__price">$22</span>
+				</div>
+				<a target="https://www.etsy.com/listing/455025360/strawberry-kaleidoscope-small-wall?ref=shop_home_active_24" href="https://www.etsy.com/listing/455025360/strawberry-kaleidoscope-small-wall?ref=shop_home_active_24" class="action action--button action--buy"><i class="fa fa-shopping-cart"></i><span class="">Buy on Etsy</span></a>
+			</div>
+		</section>
+		<section class="grid">
+  		<a target="https://www.etsy.com/shop/KalineDesign" href="https://www.etsy.com/shop/KalineDesign" class="btn">More on Etsy</a>
+		</section>
+		
+		<!-- /grid-->
+		
+	</div>
+	<!-- /view -->
+	
+	<div id="somedialog" class="dialog">
+					<div class="dialog__overlay"></div>
+					<div class="dialog__content">
+  					<img src="images/katrin.png" alt="katrin" width="100" height="100">
+						<h2><strong>Hello</strong>, I'm Katrin!</h2><div>
+  						
+  						<p>I'm currently living on South France. My soul feels fulfilled in this land! I'm cheerful, emotional and empathic. i think it shows in my design :) I love using color to evoke emotion. For me, every of my product is a work of art.</p>
+  						<br>
+  						<button class="action" data-dialog-close>Close</button></div>
+					</div>
+				</div>
+	
+	<script src="js/isotope.pkgd.min.js"></script>
+	<script src="js/flickity.pkgd.min.js"></script>
+	<script src="js/main.js"></script>
+	
+	<script src="js/classie.js"></script>
+  <script src="js/dialogFx.js"></script>
+	
+	<script>
+			(function() {
 
-  <body>
-    <p>Kalinedesign</p>
-  </body>
+				var dlgtrigger = document.querySelector( '[data-dialog]' ),
+					somedialog = document.getElementById( dlgtrigger.getAttribute( 'data-dialog' ) ),
+					dlg = new DialogFx( somedialog );
+
+				dlgtrigger.addEventListener( 'click', dlg.toggle.bind(dlg) );
+
+			})();
+  </script>
+	
+</body>
 </html>
